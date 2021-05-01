@@ -303,8 +303,8 @@ export default class SectionMain extends Component {
             </div>
         </nav>
         { this.state.loading 
-          ? <div>
-            <img src="https://i.ibb.co/S5cnbQz/Mirror-Animated.gif" alt="mirrorLoading.png" height="80%" width="100%"/>
+          ? <div style={{marginLeft:'25%', paddingTop:'10%'}}>
+            <img src="landing.png" alt="landing.png" height="30%" width="70%"/>
           </div>
           : <main className="main-content">
               <section className="section" style= {{backgroundColor: "#000", paddingTop: '40px', paddingBottom: '200px'}}>
