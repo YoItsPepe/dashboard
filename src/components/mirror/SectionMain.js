@@ -312,7 +312,7 @@ export default class SectionMain extends Component {
                   <h2 style={{color:"white"}}>Mirror <span style={{color:"#72ff56"}}>Farm</span> Dashboard - Frictionless <span style={{color:"#72ff56"}}>Farming</span> Redefined</h2>
                   <button 
                   onClick={e => {
-                    const win = window.open('https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x85e5682Cc4513358f765cb8Df98f1DD140c6cF86', "_blank");
+                    const win = window.open('https://v1.exchange.pancakeswap.finance/#/swap?inputCurrency=0x85e5682Cc4513358f765cb8Df98f1DD140c6cF86', "_blank");
                     win.focus();
                   }} 
                   className="btn btn-primary" 
